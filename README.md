@@ -10,8 +10,10 @@ This linear system is accompanied by support including stakes (columns) and hori
 -	Mid-early: Grace Star, 
 -	Late: Sweetheart and Skeena.
 
-
 The created database consists of color images. Images were taken with a stereoscopic camera while walking along the tree lines and photographing the trees in pairs. A sample image is shown in Fig. 1.
+
+![AgriVision-Cherry](media/Fig1.png)
+Fig. 1. Indicative sample image of the formulated dataset. 
 
 All images were captured with the ZED Mini Stereo Camera at relatively low resolutions. Its technical characteristics are presented in Table 1. 
 Table 1. Technical characteristics of the used image sensor ZED Mini Stereo Camera. 
@@ -40,8 +42,15 @@ In this work, three classes have been identified: (1) the trunk, (2) the thick b
 
 After filtering for clarity and visibility, **80 high-quality images** were selected.
 
+![AgriVision-Cherry](media/Fig2.png)
+Fig. 2. (a) Original image and (b) annotation of the image depicting two trees; trunks are marked with red, branches with green, and limbs with blue lines. 
+
 ### 📌 **Tree Isolation Process**
 In order to increase the number of images of the final AgriVision-Cherry dataset to train robust models, a supporting algorithm was implemented to isolate separate indicative trees from each image, as illustrated in Fig. 3. The latter resulted in a final dataset of 321 images of separate trees and their corresponding annotations.
+
+![AgriVision-Cherry](media/Fig3.png)
+
+Fig. 3. Isolation of trees towards creating a big dataset of (a) real color images, (b) along with their annotations.
 
 **Files contain the following:**
 1.	Raw dataset: 80 color images of 2-4 trees
@@ -50,7 +59,6 @@ In order to increase the number of images of the final AgriVision-Cherry dataset
 ---
 
 ## 📜 Citation
-If you use this dataset in your research, please cite:
 
 > **Axios Kefalas, Theofanis Kalampokas, Eleni Vrochidou, George A. Papakostas**  
 > *A Vision-Based Pruning Algorithm for Detecting Tree Structure Elements and Exact Pruning Points in Dormant Cherry Trees Using Deep Learning and RGB Images*,  

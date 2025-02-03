@@ -40,7 +40,6 @@ In total, 289 color images were acquired from all five varieties. From this data
 In this work, three classes have been identified: (1) the trunk, (2) the thick branches, and (3) the thinner annual shoots, namely limbs. Annotation was done manually by using the LabelMe annotation tool. The annotation of the trunk was done with a closed curved line on the outline of the trunk including its entire area. The annotation of branches was done with straight and polygonal lines of the same thickness, without taking into account the thickness of each branch, for simplification. The annotation of limbs was also done with straight and polygonal lines of the same thickness, without considering the thickness of each branch. Fig. 2 shows the annotation of 3 classes for an image depicting two cherry trees.
 
 
-After filtering for clarity and visibility, **80 high-quality images** were selected.
 
 ![AgriVision-Cherry](media/Fig2.png)
 Fig. 2. (a) Original image and (b) annotation of the image depicting two trees; trunks are marked with red, branches with green, and limbs with blue lines. 
